@@ -1,16 +1,64 @@
-# React + Vite
+# 👥 KeenKeeper — Keep Your Friendships Alive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KeenKeeper is a React-based friendship management web application that helps users track important relationships, view friend details, log interactions, and analyze communication patterns.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Live Link: Add your deployed link here
 
-## React Compiler
+## 📂 GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Repository Link: Add your GitHub repository link here
 
-## Expanding the ESLint configuration
+## ✨ Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- View friends in a clean responsive 4-column card layout
+- Click any friend card to see detailed profile information
+- Add Call, Text, or Video check-ins with toast notifications
+- View all interactions on the Timeline page
+- Filter timeline entries by interaction type
+- Analyze interactions using a Pie Chart
+- Active navbar highlighting for Home, Timeline, and Stats pages
+- Custom 404 page for invalid routes
+
+## 🛠️ Technologies Used
+
+- React.js
+- React Router DOM
+- CSS3
+- Recharts
+- React Hot Toast
+- Vite
+
+## 📱 Responsive Design
+
+The application is fully responsive and works on:
+
+- Mobile
+- Tablet
+- Desktop
+
+## 📁 Project Structure
+
+```bash
+keen-keeper/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   └── Footer.jsx
+│   ├── context/
+│   │   └── TimelineContext.jsx
+│   ├── data/
+│   │   └── friends.json
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── FriendDetails.jsx
+│   │   ├── Timeline.jsx
+│   │   ├── Stats.jsx
+│   │   └── NotFound.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+└── README.md
