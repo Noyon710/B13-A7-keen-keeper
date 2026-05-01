@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "David Kim",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "david.kim@example.com",
+    "days_since_contact": 62,
+    "status": "almost due",
+    "tags": ["WORK"],
+    "bio": "A supportive work friend who always gives helpful career advice.",
+    "goal": 30,
+    "next_due_date": "Feb 27, 2026"
+  },
+  {
+    "id": 2,
+    "name": "Emma Wilson",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "emma.wilson@example.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["FAMILY"],
+    "bio": "Former colleague, great mentor",
+    "goal": 30,
+    "next_due_date": "Feb 27, 2026"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://randomuser.me/api/portraits/women/65.jpg",
+    "email": "lisa.nakamura@example.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["WORK"],
+    "bio": "Creative teammate who enjoys design and meaningful conversations.",
+    "goal": 14,
+    "next_due_date": "Mar 10, 2026"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "https://randomuser.me/api/portraits/men/75.jpg",
+    "email": "james.wright@example.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["HOBBY", "TRAVEL"],
+    "bio": "Travel buddy who enjoys photography and weekend plans.",
+    "goal": 21,
+    "next_due_date": "Mar 18, 2026"
+  },
+  {
+    "id": 5,
+    "name": "David Kim",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "david.friend@example.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["WORK"],
+    "bio": "Reliable teammate from previous project work.",
+    "goal": 20,
+    "next_due_date": "Mar 20, 2026"
+  },
+  {
+    "id": 6,
+    "name": "Emma Wilson",
+    "picture": "https://randomuser.me/api/portraits/women/30.jpg",
+    "email": "emma.family@example.com",
+    "days_since_contact": 62,
+    "status": "on-track",
+    "tags": ["FAMILY"],
+    "bio": "Kind family friend who likes regular check-ins.",
+    "goal": 30,
+    "next_due_date": "Apr 2, 2026"
+  },
+  {
+    "id": 7,
+    "name": "Lisa Nakamura",
+    "picture": "https://randomuser.me/api/portraits/men/18.jpg",
+    "email": "lisa.friend@example.com",
+    "days_since_contact": 62,
+    "status": "on-track",
+    "tags": ["WORK"],
+    "bio": "Friendly professional connection from university events.",
+    "goal": 25,
+    "next_due_date": "Apr 8, 2026"
+  },
+  {
+    "id": 8,
+    "name": "James Wright",
+    "picture": "https://randomuser.me/api/portraits/men/41.jpg",
+    "email": "james.travel@example.com",
+    "days_since_contact": 62,
+    "status": "almost due",
+    "tags": ["HOBBY", "TRAVEL"],
+    "bio": "Enjoys hobbies, travel stories, and casual meetups.",
+    "goal": 30,
+    "next_due_date": "Apr 15, 2026"
+  }
+]

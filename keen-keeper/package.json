@@ -1,0 +1,20 @@
+{
+  "name": "keen-keeper",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hot-toast": "^2.6.0",
+    "react-router-dom": "^7.14.2",
+    "recharts": "^3.8.1",
+    "vite": "latest"
+  }
+}

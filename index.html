@@ -6,6 +6,52 @@
     <title>B13-A7-keen-keeper</title>
 </head>
 <body>
-    
+    <div id="root"></div>import { NavLink } from "react-router-dom";
+import { FaHome, FaClock, FaChartBar } from "react-icons/fa";
+
+export default function Navbar() {
+  const base = "flex items-center gap-1 px-3 py-2";
+  const active = "bg-green-700 text-white rounded";
+
+  return (
+    <div className="flex justify-between items-center px-6 py-4 border-b">
+      
+      {/* Logo */}
+      <h1 className="text-xl font-bold text-green-800">
+        KeenKeeper
+      </h1>
+
+      {/* Links */}
+      <div className="flex gap-4">
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive ? `${base} ${active}` : base
+          }
+        >
+          <FaHome /> Home
+        </NavLink>
+
+        <NavLink
+          to="/timeline"
+          className={({ isActive }) =>
+            isActive ? `${base} ${active}` : base
+          }
+        >
+          <FaClock /> Timeline
+        </NavLink>
+
+        <NavLink
+          to="/stats"
+          className={({ isActive }) =>
+            isActive ? `${base} ${active}` : base
+          }
+        >
+          <FaChartBar /> Stats
+        </NavLink>
+      </div>
+    </div>
+  );
+}
 </body>
 </html>
