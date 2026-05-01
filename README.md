@@ -4,11 +4,11 @@ KeenKeeper is a React-based friendship management web application that helps use
 
 ## 🌐 Live Demo
 
-Live Link: Add your deployed link here
+Live Link: https://sparkling-conkies-eabe14.netlify.app/
 
 ## 📂 GitHub Repository
 
-Repository Link: [Add your GitHub repository link here](https://github.com/Noyon710/B13-A7-keen-keeper)
+Repository Link: https://github.com/Noyon710/B13-A7-keen-keeper
 
 ## ✨ Key Features
 
